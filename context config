@@ -1,0 +1,20 @@
+# redis session manager
+
+<!--
+	Redis single
+	<Valve className="com.orangefunction.tomcat.redissessions.RedisSessionHandlerValve" />
+	<Manager className="com.orangefunction.tomcat.redissessions.RedisSessionManager"
+		host="127.0.0.1"
+		port="6379"
+		database="0"
+		maxInactiveInterval="60"
+	/>
+
+	Redis cluster
+	<Valve className="com.orangefunction.tomcat.redissessions.RedisSessionHandlerValve" />
+	<Manager className="com.orangefunction.tomcat.redissessions.RedisSessionManager"
+		maxInactiveInterval="60"
+		sentinelMaster="mymaster"
+		sentinels="127.0.0.1:26379,127.0.0.1:26380,127.0.0.1:26381,127.0.0.1:26382" 
+	/>
+	-->
