@@ -1,0 +1,2 @@
+# to support session copy between server, should config below in web.xml
+#  <distributable/>
